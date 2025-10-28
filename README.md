@@ -56,3 +56,8 @@ Integrate completion stats and progress visuals
 Implement dark/light mode transitions
 
 Optional sound effects for mission updates
+
+## 📸 Preview
+
+![Mission_Control_Sceenshot.png)
+
