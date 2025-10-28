@@ -59,5 +59,4 @@ Optional sound effects for mission updates
 
 ## 📸 Preview
 
-![Mission_Control_Sceenshot.png)
-
+![Mission Control Screenshot](Mission_Control_Screenshot.png)
