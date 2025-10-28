@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mission Control</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <span class="dot"></span>
+            <span class="label">Mission Control</span>
+            <span class="sys">[ONLINE]</span>
+        </div>
+        <div class="clock" aria-live="polite">--:--:--</div>
+    </header>
+
+    <main class="wrap">
+        <section class="panel board" aria-labelledby="board-title">
+            <h2 id="board-title">Mission Board</h2>
+            <div class="ship-status">
+                <h3>Ship Status</h3>
+                <div id="status-summary" class="status-summary"></div>
+            </div>
+            <ul id="list" class="missions"></ul>
+        </section>
+    </main>
+
+    <button id="clear-completed" type="button" class="fab" style="bottom:80px;">Clear completed</button>
+    <button id="new-mission" type="button" class="fab">New Mission…</button>
+
+    <div id="composer" hidden>
+        <div class="composer__dialog" role="dialog" aria-modal="true" aria-labelledby="composer-title">
+            <div id="composer-content" class="composer__content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
